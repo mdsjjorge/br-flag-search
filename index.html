@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>search system</title>
+    <title>Flag search [BR states]</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -19,7 +19,7 @@ header
 =================================================================== -->
     <header>
         <nav class="nav-container">
-            <h1 class="nav-container-psdt">Flag search</h1>
+            <h1 class="nav-container-psdt">Flag search [BR states]</h1>
             <span >
                 <p>GitHub repo => {            
                     <button class="button" onclick="location.href='https://github.com/mdsjjorge/Search-System'" type="button">
@@ -40,10 +40,11 @@ main
                     <p> search for the flag of a Brazilian state:</p>                
                     <input type="text" id="search">
                     <ul id="list"></ul>
+                    <ul id="not-found"></ul>
                 </section>
                 <section id="flags">
-                    <!-- <img src="flags/AC.jpg" alt="AC state"> -->
-                </section>
+                </section>                
+                <img id="br-map" src="flags/BR.png" alt="Brazil map">
             </section>
         </article>    
     </main>
@@ -58,6 +59,8 @@ footer
             <ul>
                 <li><a target="_blank" href="https://www.todamateria.com.br/estados-do-brasil/">Toda matéria</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/watch?v=JoGyo8mtJ8s">Kcireh</a></li>
+                <li><a target="_blank" href="https://commons.wikimedia.org/wiki/File:Map_of_Brazil_%28States%29.png">wikimedia</a></li>
+                <li><a target="_blank" href="https://gist.github.com/kavalcante/16106796c430c1711a71c5ba1213cee5">Kavalcante</a></li>
             </ul>                
         </div>
         <span >
@@ -73,38 +76,3 @@ footer
 
 </body>
 </html>
-
-<!-- <label for="address_state">Estado</label>
-    <select id="address_state" class="form-control" name="address_state" >
-        <option selected>Escolher...</option>
-    <option value="AC">Acre</option>
-    <option value="AL">Alagoas</option>
-    <option value="AP">Amapá</option>
-    <option value="AM">Amazonas</option>
-    <option value="BA">Bahia</option>
-    <option value="CE">Ceará</option>
-    <option value="DF">Distrito Federal</option>
-    <option value="ES">Espírito Santo</option>
-    <option value="GO">Goías</option>
-    <option value="MA">Maranhão</option>
-    <option value="MT">Mato Grosso</option>
-    <option value="MS">Mato Grosso do Sul</option>
-    <option value="MG">Minas Gerais</option>
-    <option value="PA">Pará</option>
-    <option value="PB">Paraíba</option>
-    <option value="PR">Paraná</option>
-    <option value="PE">Pernambuco</option>
-    <option value="PI">Piauí</option>
-    <option value="RJ">Rio de Janeiro</option>
-    <option value="RN">Rio Grande do Norte</option>
-    <option value="RS">Rio Grande do Sul</option>
-    <option value="RO">Rondônia</option>
-    <option value="RR">Roraíma</option>
-    <option value="SC">Santa Catarina</option>
-    <option value="SP">São Paulo</option>
-    <option value="SE">Sergipe</option>
-    <option value="TO">Tocantins</option>
-</select>
-
-from https://gist.github.com/kavalcante/16106796c430c1711a71c5ba1213cee5 -->
-<!-- https://www.todamateria.com.br/estados-do-brasil/ -->
