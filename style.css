@@ -52,20 +52,37 @@ main {
     border-radius: 30px;
 }
 .main-container {
-    display: flex;
+    /* display: flex; */
     padding: 60px 30px;
     /* max-width: 50%; */
     color: var(--dark-gray);
+    /* width: 100%; */
 }
 .section-container{
-    max-width: 600px;
+    /* max-width: 600px; */
     width: 100%;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
 }
-.QR-result{
-    margin-left: 20%;
+#states {
+    width: 30%;
 }
-#QRContent{
-    margin: 20px 0;
+#flags {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-height: 600px;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: scroll;
+    /* overflow-y: visible;
+    overflow-x: visible; */
+    /* overflow-x: hidden; */
+}
+#flags img {
+    width: 60%;
+    margin: 20px;
 }
 /* ===================================================
 footer
